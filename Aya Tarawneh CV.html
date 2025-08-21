@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Page — Aya Khalil Al-Tarawneh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #8055a2;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+    header p { margin: .3rem 0 0; }
+    nav { margin-top: .5rem; }
+    nav a { color: #f0e9f6; margin: 0 .5rem; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .container { width: 90%; max-width: 900px; margin: 2rem auto; }
+    section { margin-bottom: 2rem; }
+    h2 { color: #8055a2; border-bottom: 2px solid #ddd; padding-bottom: .3rem; }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    }
+
+    .skills, .personal-skills, .languages { display: flex; flex-wrap: wrap; gap: .6rem; }
+    .chip {
+      background: #ede8f2;
+      padding: .4rem .8rem;
+      border-radius: 6px;
+      font-size: .9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #8055a2;
+      color: #f0e9f6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aya Khalil Al-Tarawneh</h1>
+    <p>Fresh Graduate — Software Engineering, Mutah University (2025)</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>I am <strong>Aya Khalil Al-Tarawneh</strong>, a fresh graduate in Software Engineering from Mutah University (2025). I am seeking opportunities to gain knowledge and experience in programming, with a strong passion for developing my technical and practical skills.</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <p><strong>Bachelor of Software Engineering</strong> — Mutah University<br> Oct 2020 - Jan 2025</p>
+        <p><strong>Tawjihi</strong> — Karak, 2020</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="card skills">
+        <span class="chip">HTML5 — Expert</span>
+        <span class="chip">CSS — Skillful</span>
+        <span class="chip">ICDL — Skillful</span>
+        <span class="chip">PHP — Intermediate</span>
+        <span class="chip">Microsoft Office — Experienced</span>
+      </div>
+
+      <h2>Personal Skills</h2>
+      <div class="card personal-skills">
+        <span class="chip">Strategic Planning</span>
+        <span class="chip">Problem Solving</span>
+        <span class="chip">Ability to work under pressure</span>
+        <span class="chip">Creative Thinking</span>
+        <span class="chip">Excellent Communication</span>
+        <span class="chip">Teamwork & Cooperation</span>
+      </div>
+
+      <h2>Languages</h2>
+      <div class="card languages">
+        <span class="chip">Arabic</span>
+        <span class="chip">English</span>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p><strong>Phone:</strong> <a href="tel:+962798965949">+962798965949</a></p>
+        <p><strong>Email:</strong> <a href="mailto:kalilaya907@gmail.com">kalilaya907@gmail.com</a></p>
+        <p><strong>Location:</strong> Al-Karak, Jordan</p>
+        <p><strong>Date of Birth:</strong> 6 - 10 - 2002</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Aya Khalil Al-Tarawneh — Personal Page</p>
+  </footer>
+</body>
+</html>
